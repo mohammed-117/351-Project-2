@@ -14,7 +14,7 @@
 #define NOPRIME 2
 #define SIZE 18
 
-//put your info here or you won't get points
+
 #define STUDENT_NAME "Mohammed Hassnain"
 #define STUDENT_CWID "894088921"
 
@@ -23,7 +23,7 @@ using namespace std;
 bool test = false;
 
 
-//you may not change code in this section:
+//Do not edit code in this section:
 void print_name(void) {
 	printf("\n%s\n", STUDENT_NAME);
 	printf("%s\n", STUDENT_CWID);
@@ -113,7 +113,7 @@ int main(int argc, char ** argv)
 	unsigned int n = std::thread::hardware_concurrency();
 	printf("Concurrent Threads Supported: %d\n", n);
 
-	//don't change this name print section or you won't get points:
+	//Do not edit the code in this section:
 	if (argc == 2 && strncmp(argv[1], "-n", 2) == 0) {
 		print_name();
 		return 0;
